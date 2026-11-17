@@ -1,0 +1,211 @@
+{
+ "started": "2026-11-17 02:35:05",
+ "样本": {
+  "总数": 42,
+  "成功": 42
+ },
+ "list_a_total": 38,
+ "ghost_invalidate": "failed: Timeout context manager should be used inside a task",
+ "ghost_still_returned": false,
+ "noise_returned": 0,
+ "errors": [
+  "recall poc-a What is Alpha's deploy server : Timeout context manager should be used inside a task",
+  "recall poc-a haha ok brb lunch asdf: Timeout context manager should be used inside a task"
+ ],
+ "跨项目泄漏": [
+  {
+   "问": "What is Project Beta's marketing budget?",
+   "类型": "leak_default_from_B",
+   "返回条数": 38,
+   "Alpha条": 38,
+   "Beta条": 0
+  },
+  {
+   "问": "What is Project Beta's marketing budget?",
+   "类型": "leak_minscore_from_B",
+   "返回条数": 23,
+   "Alpha条": 23,
+   "Beta条": 0
+  },
+  {
+   "问": "When is Project Beta's launch date?",
+   "类型": "leak_default_from_B",
+   "返回条数": 38,
+   "Alpha条": 38,
+   "Beta条": 0
+  },
+  {
+   "问": "When is Project Beta's launch date?",
+   "类型": "leak_minscore_from_B",
+   "返回条数": 23,
+   "Alpha条": 23,
+   "Beta条": 0
+  },
+  {
+   "问": "What is Beta's brand color?",
+   "类型": "leak_default_from_B",
+   "返回条数": 38,
+   "Alpha条": 38,
+   "Beta条": 0
+  },
+  {
+   "问": "What is Beta's brand color?",
+   "类型": "leak_minscore_from_B",
+   "返回条数": 23,
+   "Alpha条": 23,
+   "Beta条": 0
+  },
+  {
+   "问": "Who is on Beta's influencer shortlist?",
+   "类型": "leak_default_from_B",
+   "返回条数": 38,
+   "Alpha条": 38,
+   "Beta条": 0
+  },
+  {
+   "问": "Who is on Beta's influencer shortlist?",
+   "类型": "leak_minscore_from_B",
+   "返回条数": 23,
+   "Alpha条": 23,
+   "Beta条": 0
+  },
+  {
+   "问": "What database does Project Alpha use?",
+   "类型": "leak_default_from_A",
+   "返回条数": 38,
+   "Alpha条": 0,
+   "Beta条": 38
+  },
+  {
+   "问": "What database does Project Alpha use?",
+   "类型": "leak_minscore_from_A",
+   "返回条数": 23,
+   "Alpha条": 0,
+   "Beta条": 23
+  },
+  {
+   "问": "What port is Alpha's API gateway on?",
+   "类型": "leak_default_from_A",
+   "返回条数": 38,
+   "Alpha条": 0,
+   "Beta条": 38
+  },
+  {
+   "问": "What port is Alpha's API gateway on?",
+   "类型": "leak_minscore_from_A",
+   "返回条数": 23,
+   "Alpha条": 0,
+   "Beta条": 23
+  },
+  {
+   "问": "What is Alpha's deploy server IP?",
+   "类型": "leak_default_from_A",
+   "返回条数": 38,
+   "Alpha条": 0,
+   "Beta条": 38
+  },
+  {
+   "问": "What is Alpha's deploy server IP?",
+   "类型": "leak_minscore_from_A",
+   "返回条数": 23,
+   "Alpha条": 0,
+   "Beta条": 23
+  },
+  {
+   "问": "What CI runner does Alpha use?",
+   "类型": "leak_default_from_A",
+   "返回条数": 38,
+   "Alpha条": 0,
+   "Beta条": 38
+  },
+  {
+   "问": "What CI runner does Alpha use?",
+   "类型": "leak_minscore_from_A",
+   "返回条数": 23,
+   "Alpha条": 0,
+   "Beta条": 23
+  }
+ ],
+ "相关问题": [
+  {
+   "问": "What database and vector extension does Alpha use?",
+   "返回条数": 38,
+   "耗时": 0.38
+  },
+  {
+   "问": "How are Alpha's secrets managed?",
+   "返回条数": 38,
+   "耗时": 1.12
+  },
+  {
+   "问": "What is Alpha's rate limit?",
+   "返回条数": 38,
+   "耗时": 0.38
+  },
+  {
+   "问": "What is Beta's pricing?",
+   "返回条数": 38,
+   "耗时": 0.39
+  },
+  {
+   "问": "What is Beta's launch date?",
+   "返回条数": 38,
+   "耗时": 0.13
+  },
+  {
+   "问": "What are Beta's thumbnail rules?",
+   "返回条数": 38,
+   "耗时": 1.33
+  }
+ ],
+ "无关问题": [
+  {
+   "问": "What is the airspeed velocity of an unladen swallow?",
+   "返回条数": 30
+  },
+  {
+   "问": "What is the airspeed velocity of an unladen swallow?",
+   "返回条数": 18
+  },
+  {
+   "问": "How do I bake a sourdough bread at home?",
+   "返回条数": 0
+  },
+  {
+   "问": "How do I bake a sourdough bread at home?",
+   "返回条数": 0
+  },
+  {
+   "问": "Who won the 1998 FIFA World Cup final?",
+   "返回条数": 16
+  },
+  {
+   "问": "Who won the 1998 FIFA World Cup final?",
+   "返回条数": 10
+  },
+  {
+   "问": "What is the capital of Mongolia?",
+   "返回条数": 28
+  },
+  {
+   "问": "What is the capital of Mongolia?",
+   "返回条数": 17
+  },
+  {
+   "问": "Explain quantum chromodynamics in one sentence.",
+   "返回条数": 38
+  },
+  {
+   "问": "Explain quantum chromodynamics in one sentence.",
+   "返回条数": 23
+  },
+  {
+   "问": "What year did the Titanic sink?",
+   "返回条数": 14
+  },
+  {
+   "问": "What year did the Titanic sink?",
+   "返回条数": 8
+  }
+ ]
+}
